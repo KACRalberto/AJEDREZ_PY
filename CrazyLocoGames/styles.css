@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: black;
+    height: 100vh;
+}
+#menu_header{
+    display: flex;
+    background-color: black;
+    justify-content: right;
+    gap: 12px;
+    color: white;
+    border: 2px solid white;
+}
+#menu_header h1{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+}
+#menu_icons{
+    border: 2px solid white;
+    display: flex;
+}
+.game{
+    color: white;
+    display: flex;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin-top: 50px;
+    font-size: 15px;
+    border: 2px solid white;
+}
+.game:hover{
+    font-size: 12.5px;
+    transition: 0.5s;
+}
+.img_game{
+
+}
